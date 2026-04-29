@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <title>Officine Compatibili</title>
+</head>
+<body>
+    <h1>Officine Compatibili</h1>
+
+    <p>Seleziona i requisiti per trovare le officine compatibili:</p>
+
+    <label for="servizio">Servizio richiesto:</label>
+    <select id="servizio">
+        <option value="">-- Nessuno --</option>
+    </select><br><br>
+
+    <label for="pezzo">Pezzo di ricambio richiesto:</label>
+    <select id="pezzo">
+        <option value="">-- Nessuno --</option>
+    </select><br><br>
+
+    <label for="accessorio">Accessorio richiesto:</label>
+    <select id="accessorio">
+        <option value="">-- Nessuno --</option>
+    </select><br><br>
+
+    <button onclick="cercaOfficine()">Cerca Officine Compatibili</button>
+
+    <div id="risultati" style="margin-top: 20px;"></div>
+
+    <br><br>
+    <a href="index.php">Torna alla Home</a>
+
+    <script src="../js/utils.js"></script>
+    <script src="../js/officineCompatibili.js"></script>
+</body>
+</html>
+
